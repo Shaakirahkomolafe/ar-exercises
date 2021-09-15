@@ -1,7 +1,7 @@
 require_relative '../setup'
 
 puts "Exercise 1"
-puts "#{Store.count}"
+puts "------"
 
 # Your code goes below here ...
 # Burnaby (annual_revenue of 300000, carries men's and women's apparel)
@@ -10,3 +10,4 @@ puts "#{Store.count}"
 Store.create(:name =>"Burnaby", :annual_revenue =>300000, :mens_apparel => true )
 Store.create(:name => "Richmond", :annual_revenue=>1260000, :womens_apparel =>true)
 Store.create(:name => "Gastown", :annual_revenue =>190000, :mens_apparel =>true)
+puts "#{Store.count}"
